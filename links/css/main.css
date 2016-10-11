@@ -1,0 +1,44 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    padding: 1em;
+}
+
+.icon-link {
+    color: #333;
+}
+
+.icon-link:hover{
+    color: #F00;
+}
+
+.button-link{
+    color:#333;
+    text-decoration: none;
+    border-width: 1px;
+    border-style:solid;
+    border-color:#222;
+    padding: 0.5em 1em;
+    border-radius:4px;
+    background-color: #888;
+    transition: all 500ms;
+}
+
+.button-link:hover{
+    background-color: #EEE;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        ocapcity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
